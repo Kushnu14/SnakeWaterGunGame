@@ -6,6 +6,9 @@ while True:
     if play == "e":
         print("Exiting the game. Goodbye!")
         exit()  # Exit the program immediately
+        
+    elif play!="p" and play!="e":
+        print("Enter valid alphabet!!") 
 
     else:
        computer = random.choice([-1, 0, 1])
